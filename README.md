@@ -1,2 +1,2 @@
-# Batismo-do-JAVA
+# Batismo-de-JAVA
 Aprendendo JAVA, fiquei maluco.
