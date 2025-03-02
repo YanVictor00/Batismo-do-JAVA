@@ -19,6 +19,11 @@ public class LacosDeRepicoes {
         }
         System.out.println("Acabou o chakra do Narutinho");
 
+        //FOR
+        for (int i = 0; i <= MaxDeClones; i++) {
+            System.out.println("Clone " + i);
+        }
+
 
 
 
