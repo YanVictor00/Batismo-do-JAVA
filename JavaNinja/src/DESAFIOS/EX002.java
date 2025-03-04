@@ -74,10 +74,7 @@ public class EX002 {
                 case "2":
                     System.out.println("==========NINJAS CADASTRADOS==========");
                     for (int i = 0; i < cadastroNome.length; i++){
-                        if (cadastroNome[i] == null){
-                            cadastroNome[i] = "";
-                        }else{
-
+                        if ( cadastroNome[i] != null){
                             System.out.println((i + 1) + " - " + cadastroNome[i]);
                         }
                     }
