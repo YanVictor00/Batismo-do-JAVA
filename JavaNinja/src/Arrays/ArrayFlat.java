@@ -1,8 +1,6 @@
 package Arrays;
 
-import java.util.Arrays;
-
-public class Array {
+public class ArrayFlat {
     public static void main(String[] args) {
 
         /*
@@ -18,7 +16,7 @@ public class Array {
         System.out.println(ninja[0]);
 
 
-        int[] idade = new int[4]; //Array INT se inicializa com " 0 "
+        int[] idade = new int[4]; //Array INT se inicializa com  0
         idade[0] = 18;
         idade[1] = 18;
         idade[2] = 18;
