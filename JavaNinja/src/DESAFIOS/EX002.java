@@ -33,6 +33,9 @@ public class EX002 {
 
                         //VOLTAR O MENU
                         if (nomeCliente.toUpperCase().equals("VOLTAR")) {
+                            System.out.println("------------------------------------");
+                            System.out.println("    VOLTANDO AO MENU!   ");
+                            System.out.println("------------------------------------");
                             resposta = "2";
                             break;
 
@@ -45,20 +48,22 @@ public class EX002 {
                         }
 
                     }
-                    System.out.println("ESGOTOU A LISTA DE CADASTRO!");
-                    System.out.println("------------------------------------");
 
 
                     //VOLTAR O MENU
                     System.out.println("==========MENU NINJA==========");
-                    System.out.println("1. BLOQUEADO");
+                    System.out.println("1. Editar");
                     System.out.println("2. Listar Ninjas");
                     System.out.println("3. Sair");
                     System.out.print("Digite a opção que você deseja: ");
                     String respostaDnv = dados.nextLine();
                     switch (respostaDnv) {
                         case "1":
-                            System.out.println("Sistema bloqueado! Renicie!");
+                            System.out.println("------------------------------------");
+                            System.out.println("        EDITANDO!");
+                            System.out.println("------------------------------------");
+
+                            resposta = "1";
                             break;
                         case "2":
                             resposta = "2";
