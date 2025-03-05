@@ -7,25 +7,25 @@ public class EX002 {
 
         Scanner dados = new Scanner(System.in);
         String cadastroNome[] = new String[18];
+        String resposta = "0";
 
-        System.out.println("==========MENU NINJA==========");
-        System.out.println("1. Cadastrar Ninja");
-        System.out.println("2. Listar Ninjas");
-        System.out.println("3. Sair");
-        System.out.print("Digite a opção que você deseja: ");
-
-        String resposta = dados.nextLine();
 
         //LOOP DO SISTEMA
-        while(!resposta.equals("3")) {
+        while( resposta != "3") {
+
+            System.out.println("==========MENU NINJA==========");
+            System.out.println("1. Cadastrar Ninja");
+            System.out.println("2. Listar Ninjas");
+            System.out.println("3. Sair");
+            System.out.print("Digite a opção que você deseja: ");
+            resposta = dados.nextLine();
 
             //CONDIÇOES DO VALOR DA RESPOSTA
             switch (resposta) {
 
                 //CADASTRAR NINJA
                 case "1":
-                    System.out.println("==========CADASTRAR NINJA==========");
-                    System.out.println("Caso queira sair escreva 'VOLTAR' ");
+                    System.out.println("==========CADASTRANDO NINJA==========");
                     System.out.println("Escreva o nome do ninja: ");
 
                     for (int i = 0; i < cadastroNome.length; i++) {
@@ -48,31 +48,6 @@ public class EX002 {
                         }
 
                     }
-
-
-                    //VOLTAR O MENU
-                    System.out.println("==========MENU NINJA==========");
-                    System.out.println("1. Editar");
-                    System.out.println("2. Listar Ninjas");
-                    System.out.println("3. Sair");
-                    System.out.print("Digite a opção que você deseja: ");
-                    String respostaDnv = dados.nextLine();
-                    switch (respostaDnv) {
-                        case "1":
-                            System.out.println("------------------------------------");
-                            System.out.println("        EDITANDO!");
-                            System.out.println("------------------------------------");
-
-                            resposta = "1";
-                            break;
-                        case "2":
-                            resposta = "2";
-                            break;
-                        case "3":
-                            System.out.println("Você saiu! Renicie para voltar!");
-                            break;
-
-                    }
                     break;
 
                 //Listar Ninjas
@@ -83,7 +58,9 @@ public class EX002 {
                             System.out.println((i + 1) + " - " + cadastroNome[i]);
                         }
                     }
-                    resposta = "3";
+                    if (cadastroNome[0] == null){
+                        System.out.println("coloque um nome na lista!");
+                    }
                     break;
 
                 default:
@@ -92,7 +69,6 @@ public class EX002 {
                     break;
             }
         }
-
         System.out.println("Sistema finalizado!");
         dados.close();
     }
