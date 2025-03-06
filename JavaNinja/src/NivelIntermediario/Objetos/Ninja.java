@@ -6,11 +6,15 @@ public class Ninja {
     int idade;
     String aldeia;
 
-    // Método void = Método que não tem retorno.
-    public void SharingaAtivado(){
-        System.out.println("O Sharingan ativou!");
-    }
 
+
+
+
+
+
+
+
+    /*
 
     //Método return = Método que precisa de um retorno da tipagem do método, EX: String, int...
     public String BemVindo(){
@@ -21,4 +25,6 @@ public class Ninja {
         return idadeMinima - idade;
     }
 
+
+     */
 }
