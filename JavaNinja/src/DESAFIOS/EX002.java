@@ -1,4 +1,4 @@
-package NivelFacil.DESAFIOS;
+package DESAFIOS;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class EX002 {
         Scanner dados = new Scanner(System.in);
         String cadastroNome[] = new String[18];
         String resposta = "0";
-
+        int cont = 0;
 
         //LOOP DO SISTEMA
         while( resposta != "3") {
@@ -28,7 +28,7 @@ public class EX002 {
                     System.out.println("==========CADASTRANDO NINJA==========");
                     System.out.println("Escreva o nome do ninja: ");
 
-                    for (int i = 0; i < cadastroNome.length; i++) {
+                    for ( ; cont < cadastroNome.length; cont++) {
                         String nomeCliente = dados.nextLine();
 
                         //VOLTAR O MENU
@@ -40,7 +40,7 @@ public class EX002 {
                             break;
 
                         }else {
-                            cadastroNome[i] = nomeCliente;
+                            cadastroNome[cont] = nomeCliente;
                             System.out.println("Nome adicionado com sucesso!");
                             System.out.println("Caso queira voltar digite 'VOLTAR' ");
                             System.out.println("Escreva de outro ninja: ");
