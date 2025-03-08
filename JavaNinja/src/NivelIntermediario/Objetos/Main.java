@@ -25,6 +25,10 @@ public class Main {
         hinata.idade = 18;
         hinata.aldeia = "Aldeia da folha";
 
+        Boruto boruto = new Boruto();
+        boruto.nome = "Boruto Hyuga Uzumaki";
+        boruto.idade = 1;
+        boruto.aldeia = "Aldeia da folha";
 
 
         //Aplicando Métodos aos objetos
@@ -33,6 +37,10 @@ public class Main {
         naruto.GrandeQuantideDeChakra();
         sakura.EuCuro();
         hinata.Byakugan();
+        System.out.println("===== BORUTO =====");
+        boruto.AtivarKarma();
+        boruto.AtivarJougan();
+        boruto.GrandeQuantideDeChakra();
 
 
 

@@ -13,7 +13,6 @@ public class Main {
         usuario.missao = "Ir a porta da Aldeia e proteger a Vila da AKATSUKI";
         System.out.println(usuario.missao);
         usuario.nilvelDeDificulculdade = "S";
-        System.out.println(usuario.nilvelDeDificulculdade);
         usuario.statusDaMissao = "Pendente...";
         System.out.println(usuario.statusDaMissao);
         System.out.println("Qual é a habilidade Especial do Ninja: ");
