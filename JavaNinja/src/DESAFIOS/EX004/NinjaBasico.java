@@ -15,4 +15,10 @@ public class NinjaBasico implements Ninja{
     public void ExecutarHabilidade() {
         System.out.println("Sem Habilidade Especial!");
     }
+
+    NinjaBasico(String nome, int idade){
+        this.nome = nome;
+        this.idade = idade;
+
+    }
 }

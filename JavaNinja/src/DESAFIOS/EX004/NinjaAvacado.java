@@ -23,7 +23,10 @@ public class NinjaAvacado implements Ninja{
 
 
 
-    public NinjaAvacado(String habilidade ,String especialidade){
+    public NinjaAvacado(String nome, int idade, String habilidade ,String especialidade){
+        this.nome = nome;
+        this.idade = idade;
+
         this.habilidade = habilidade;
         this.especialidade = especialidade;
     }
