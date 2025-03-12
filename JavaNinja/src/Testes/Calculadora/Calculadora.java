@@ -1,6 +1,4 @@
-package Testes;
-
-import java.util.Scanner;
+package Testes.Calculadora;
 
 public class Calculadora {
 
