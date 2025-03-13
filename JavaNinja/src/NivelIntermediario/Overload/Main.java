@@ -6,22 +6,24 @@ public class Main {
         //OBJ NINJA NÃO PODE SER CRIADA, É UMA CLASSE ABSTRATA
 
         //OBJ UZUMAKI
-        Uzumaki naruto = new Uzumaki("Naruto Uzumaki","Konoha", "AR", 18);
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki","Konoha", "AR", 18, 90, NivelNinja.GENIN);
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalha();
 
         System.out.println("------------------------");
 
         //OBJ UCHIHA
-        Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Konoha", "FOGO", 19 );
+        Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Konoha", "FOGO", 19, 91, NivelNinja.JOUNIN);
         sasuke.habilidadeEspecial();
         sasuke.estrategiaDeBatalha();
+        sasuke.About();
 
         System.out.println("------------------------");
 
         Uchiha madara =new Uchiha("Madara Uchiha", "Konoha", "TODOS", 112, 900, NivelNinja.KAGE);
         madara.habilidadeEspecial();
         madara.estrategiaDeBatalha();
+        madara.inteligenciaDeCombate(8000);
 
 
 

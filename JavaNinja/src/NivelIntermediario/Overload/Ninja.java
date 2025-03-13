@@ -14,10 +14,38 @@ public class Ninja implements EstrategiaDeBatalha {
     NivelNinja rank;
 
 
+                    //MÉTODOS
 
     public void habilidadeEspecial(){
         System.out.println("Meu nome é " + nome + " e esse é meu Ataque Especial");
     };
+
+    public void About(){
+        System.out.println("NOME: " + nome);
+        System.out.println("IDADE: " + aldeia);
+        System.out.println("ELEMENTO: " + elementoEspecial);
+        System.out.println("IDADE: " + idade);
+        System.out.println("MISSÕES CONCLUÍDAS: " + numeroDeMissoesConcluidas);
+        System.out.println("RANK: " + rank);
+    };
+
+    public void inteligenciaDeCombate(){
+        System.out.println("Você tem inteligencia de combate?");
+    }
+
+    // Método Overload
+    public void inteligenciaDeCombate(int qi){
+        if (qi > 150) {
+            System.out.println("Você é um Ninja muito inteligente");
+        } else if (qi >= 120) {
+            System.out.println("Você é um Ninja Promissor");
+        }else {
+            System.out.println("Você precisa ganhar mais experiência");
+        }
+    }
+
+
+                    // CONSTRUTORES
 
     //SOBREESCREVENDO MÉTODO DA INTERFACE NA CLASSE ABSTRATA
     @Override

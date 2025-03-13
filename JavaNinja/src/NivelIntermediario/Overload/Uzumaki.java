@@ -16,4 +16,9 @@ public class Uzumaki extends Ninja {
     public Uzumaki(String nome, String aldeia, String elementoEspecial, int idade) {
         super(nome, aldeia, elementoEspecial, idade);
     }
+
+    //OVERLOAD CONSTRUTOR
+    public Uzumaki(String nome, String aldeia, String elementoEspecial, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        super(nome, aldeia, elementoEspecial, idade, numeroDeMissoesConcluidas, rank);
+    }
 }
