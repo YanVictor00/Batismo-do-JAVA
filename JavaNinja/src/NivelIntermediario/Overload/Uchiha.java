@@ -9,6 +9,8 @@ public class Uchiha extends Ninja {
         System.out.println("Minha especialidade é: " + elementoEspecial);
     }
 
+
+
     // ACESSANDO CONSTRUTOR SUPER
     public Uchiha(String nome, String aldeia, String elementoEspecial, int idade) {
         super(nome, aldeia, elementoEspecial, idade);
