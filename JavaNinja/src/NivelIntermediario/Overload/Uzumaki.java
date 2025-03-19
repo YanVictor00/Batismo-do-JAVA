@@ -4,6 +4,7 @@ import NivelIntermediario.Overload.Ninja;
 
 public class Uzumaki extends Ninja {
 
+    final double altura = 1.71;
 
     //SOBREESCREVER MÉTODO DA CLASSE NINJA
     @Override

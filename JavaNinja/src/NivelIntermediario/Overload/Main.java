@@ -9,6 +9,15 @@ public class Main {
         Uzumaki naruto = new Uzumaki("Naruto Uzumaki","Konoha", "AR", 18, 90, NivelNinja.GENIN);
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalha();
+        System.out.println(naruto.altura);
+
+
+        System.out.println("------------------------");
+
+        Anbu ninjaAnbu = new Anbu();
+        System.out.println(ninjaAnbu.nome);
+        ninjaAnbu.idade = 14;
+        System.out.println(ninjaAnbu.idade);
 
         System.out.println("------------------------");
 
