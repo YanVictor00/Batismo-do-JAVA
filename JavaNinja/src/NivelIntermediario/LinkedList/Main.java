@@ -14,6 +14,19 @@ public class Main {
         listaEncadeada.remove(0);
         System.out.println(listaEncadeada);
 
+        System.out.println("----------------------------------");
+
+        Ninja sasuke = new Ninja("Sasuke Uchiha", 18);
+        Saiajin gohan = new Saiajin("Son Gohan", 18);
+        Theft kazuma = new Theft("Kazuma Satoo", 17);
+
+        LinkedList<Object> listinha = new LinkedList<>();
+        listinha.add(sasuke);
+        listinha.add(gohan);
+        listinha.add(kazuma);
+        System.out.println(listinha);
+        
+
 
     }
 }
