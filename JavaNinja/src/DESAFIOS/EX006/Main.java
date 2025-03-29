@@ -62,7 +62,7 @@ public class Main {
                     System.out.println("IDADE: ");int idade = entrada.nextInt();
                     entrada.nextLine();
                     System.out.println("ALDEIA: ");String aldeia = entrada.nextLine();
-                    listaDeNinjas.add(new Ninja(nome,idade,aldeia));
+                    listaDeNinjas.addFirst(new Ninja(nome,idade,aldeia));
                     break;
                 case 5:
                     System.out.println("SYSTEM FINALIZED...");

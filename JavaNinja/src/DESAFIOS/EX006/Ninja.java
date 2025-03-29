@@ -5,4 +5,5 @@ public record Ninja(String nome, int idade, String aldeia) {
     public String toString() {
         return  "[ NOME: "+ nome + ", IDADE: " + idade + ", ALDEIA: " + aldeia + " ]\n";
     }
+
 }
