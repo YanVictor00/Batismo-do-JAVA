@@ -18,12 +18,6 @@ public class Main {
         resultado = numeros.Soma(numeros.primeiro, numeros.segundo);
         System.out.println("A soma dos produtos é: " + resultado);
 
-
-
-
-
-
-
         input.close();
     }
 
